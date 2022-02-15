@@ -1,0 +1,152 @@
+body{
+    font-family: monospace;
+}
+
+.color-background{
+    background-color:#F999B7 ;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat-Bold';
+    line-height: 1.5;
+}
+h1,h2{
+    font-size: 3.25rem !important;
+}
+p{
+    color: #8f8f8f;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+#title{
+    background-color: #F2789F;
+}
+
+.container-fluid{
+    padding: 3% 15% !important;
+}
+
+/* Navigation bar */
+.navbar{
+    padding-bottom: 4.5rem !important;
+    }
+
+.navbar-brand{
+    font-family:'Ubuntu';
+    font-size: 3.25rem !important;
+    font-weight: bold;
+}
+.nav-item{   
+    padding: 0 20px;
+}
+
+.row .download-button{
+    margin: 10% 5% 15% 0;
+}
+
+.iphone-imag{
+    width: 20% ;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* title section */
+#title .container-fluid{
+    padding: 3% 15%;
+}
+
+/* features */
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+#features-box{
+    text-align: center;
+    padding: 5% ;
+}
+
+.features-imag{
+    color: #F999B7;
+    font-size: 4rem;
+    cursor: pointer;
+    padding: 10% 20%;
+}
+
+.features-imag:hover{
+    color: #F2789F;
+}
+
+/* testimonials section */
+#testimonials{
+    text-align: center;
+    padding: 5% 0;
+}
+.testimonials-imag{
+    border-radius: 50%;
+    margin: 1.25rem;
+    width: 8%;
+}
+
+
+/* press section */
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-imag{
+    width:12%;
+    padding: 20px 30px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+    margin: 5% 0;
+}
+.pricing-p{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+/* Call to Action */
+#cta{
+    background-color: #F999B7;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#cta .download-button{
+    margin: 5% 3% 5%;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+}
+.footer-icon{
+    padding: 10px;
+}
+
+
+@media (max-width:1028px) {
+    .iphone-imag{
+        position: static;
+        transform: rotate(0);
+        width:50%;
+    }
+    #title{
+        text-align: center;
+    }
+}
